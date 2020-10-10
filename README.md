@@ -1,19 +1,24 @@
-# KnowledgeDrivenTextEmbedding
+# Analyzing Firm Reports for Volatility Prediction: AKnowledge-Driven Text Embedding Approach
 
-[Description]
+## [Description]
+
 This folder contains source code to train finance-specificed word2vec model using Loughran and McDonald (LM) Dictionary as constraints. In particular, we use the Positive and Negative word lists.
 
-[Data Source]
+## [Data Source]
+
 The Form 10-Ks can be obtained from https://www.sec.gov/edgar/searchedgar/companysearch.html
 You should extract text-related sections, including Section 1, Section 1A, and Section 7 section from the Form 10-Ks.
 
 The LM Sentiment word list can be obtained from https://sraf.nd.edu/textual-analysis/resources/
 
-[Compile]
+## [Compile]
+
 gcc LM-w2v.c -o LM-w2v -lm -pthread -O2 -Wall -funroll-loops -Wno-unused-result
 
-[Train Corpus]
+## [Train Corpus]
+
 To prepare a customized training corpus, you can refer to prepare_corpus.py. This script strips all the punctuations, tokenize texts and convert the uppercase to lowercase at the beginning of a sentence.
+
 
 [Train Embedding]
 To train a finance-specific word2vec model, you need to provide a training corpus, a binary label for sentiment words, and a vocabulary. You also need to configure hyperparameters beta-m and beta-c that control the stength of must-links and cannot-links.
