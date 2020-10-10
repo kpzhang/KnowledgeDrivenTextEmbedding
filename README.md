@@ -28,7 +28,13 @@ To train a finance-specific word2vec model, you need to provide a training corpu
 
 ## [Pre-trained Embedding]
 
-You can download our pre-trained embeddings at: https://gohkust-my.sharepoint.com/:f:/g/personal/imyiyang_ust_hk/Eh0_BWRQ_1FAvKr6-mwa1d8BD2KGE2M1-Vvq9cY6gcdYvg?e=DbU5lP or https://umd.box.com/s/fj7e05lruedrkdelr28pvnzy3f08nrgs
+You can download our pre-trained embeddings at: 
+
+https://gohkust-my.sharepoint.com/:f:/g/personal/imyiyang_ust_hk/Eh0_BWRQ_1FAvKr6-mwa1d8BD2KGE2M1-Vvq9cY6gcdYvg?e=DbU5lP 
+
+or 
+
+https://umd.box.com/s/fj7e05lruedrkdelr28pvnzy3f08nrgs
 
 ## [Acknowledge]
 
