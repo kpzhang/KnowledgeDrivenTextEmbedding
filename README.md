@@ -1,4 +1,4 @@
-# Analyzing Firm Reports for Volatility Prediction: AKnowledge-Driven Text Embedding Approach
+# Analyzing Firm Reports for Volatility Prediction: A Knowledge-Driven Text Embedding Approach
 
 ## [Description]
 
