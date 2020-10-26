@@ -2,7 +2,7 @@
 
 ## [Description]
 
-This folder contains source code to train finance-specificed word2vec model using Loughran and McDonald (LM) Dictionary as constraints. In particular, we use the Positive and Negative word lists.
+This folder contains source code to train finance-specified word2vec model using Loughran and McDonald (LM) Dictionary as constraints. In particular, we use the Positive and Negative word lists.
 
 ## [Data Source]
 
