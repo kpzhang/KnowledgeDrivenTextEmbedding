@@ -17,14 +17,14 @@ gcc LM-w2v.c -o LM-w2v -lm -pthread -O2 -Wall -funroll-loops -Wno-unused-result
 
 ## [Train Corpus]
 
-To prepare a customized training corpus, you can refer to prepare_corpus.py. This script strips all the punctuations, tokenize texts and convert the uppercase to lowercase at the beginning of a sentence.
+To prepare a customized training corpus, you can refer to `prepare_corpus.py`. This script strips all the punctuations, tokenize texts and convert the uppercase to lowercase at the beginning of a sentence.
 
 
 ## [Train Embedding]
 
-To train a finance-specific word2vec model, you need to provide a training corpus, a binary label for sentiment words, and a vocabulary. You also need to configure hyperparameters beta-m and beta-c that control the stength of must-links and cannot-links.
+To train a finance-specific word2vec model, you need to provide a training corpus, a binary label for sentiment words, and a vocabulary. You also need to configure hyperparameters `beta-m` and `beta-c` that control the stength of must-links and cannot-links.
 
-./LM-w2v -size 200 -train train_corpus.txt -label labels_LM_binary.txt -save_vocab vocab.txt -debug 2 -lambda 4e-4 -output 200_1_1_5.txt -window 5 -sample 1e-4 -hs 0 -negative 5 -constraints 32 -beta-m 1 -beta-c 1 -threads 10 -epochs 1
+`./LM-w2v -size 200 -train train_corpus.txt -label labels_LM_binary.txt -save_vocab vocab.txt -debug 2 -lambda 4e-4 -output 200_1_1_5.txt -window 5 -sample 1e-4 -hs 0 -negative 5 -constraints 32 -beta-m 1 -beta-c 1 -threads 10 -epochs 1`
 
 ## [Pre-trained Embedding]
 
