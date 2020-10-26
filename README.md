@@ -13,7 +13,7 @@ The LM Sentiment word list can be obtained from https://sraf.nd.edu/textual-anal
 
 ## [Compile]
 
-gcc LM-w2v.c -o LM-w2v -lm -pthread -O2 -Wall -funroll-loops -Wno-unused-result
+`gcc LM-w2v.c -o LM-w2v -lm -pthread -O2 -Wall -funroll-loops -Wno-unused-result`
 
 ## [Train Corpus]
 
